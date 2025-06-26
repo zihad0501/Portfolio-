@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio </title>
 
     <style>
@@ -59,9 +58,6 @@
             margin: 0 0.75rem;
             transition: color 0.3s ease;
         }
-        .social-icons a:hover {
-            color: #1abc9c;
-        }
         .btn-primary {
             background-color: #1abc9c;
             color: #fff;
@@ -69,9 +65,6 @@
             border-radius: 0.5rem;
             text-decoration: none;
             transition: background-color 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #16a085;
         }
         .education-item {
             border-left: 2px solid #1abc9c;
