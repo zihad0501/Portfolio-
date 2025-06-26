@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            background-color: #34495e;
+            width: 300px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0.5rem;
+            margin-right: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 2rem;
+            background-color: #2c3e50;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            color: #1abc9c;
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 0.5rem;
+        }
+        .progress-bar-container {
+            background-color: #555;
+            border-radius: 0.5rem;
+            height: 8px;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+        }
+        .progress-bar {
+            background-color: #1abc9c;
+            height: 100%;
+            border-radius: 0.5rem;
+        }
+        .social-icons a {
+            color: #ecf0f1;
+            font-size: 1.5rem;
+            margin: 0 0.75rem;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #1abc9c;
+        }
+        .btn-primary {
+            background-color: #1abc9c;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #16a085;
+        }
+        .education-item {
+            border-left: 2px solid #1abc9c;
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .education-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #1abc9c;
+            border-radius: 50%;
+            border: 2px solid #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto p-4 md:flex-row flex-col">
+        <div class="sidebar rounded-lg p-8 shadow-lg flex flex-col items-center mb-4 md:mb-0">
+          
+            <h1 class="text-4xl font-bold text-white mb-2" style="color: #1abc9c;">Rakibul Hasan Zihad</h1>
+            <div class="social-icons flex mb-8">
+                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="flex flex-col space-y-4 w-full">
+                <a href="#" class="btn-primary text-center">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="main-content rounded-lg p-8 shadow-lg">
+            <section id="about" class="mb-12">
+                <h2 class="section-title">About Me</h2>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    I am Rakibul Hasan Zihad, a web designer with 2 years of experience in creating user-friendly and visually appealing websites. My expertise lies in front-end development, design, and collaborating with clients to bring their digital visions to life. I am passionate about crafting engaging online experiences that leave a lasting impression.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
+                    <div>Age: 23</div>
+                    <div>Degree: B.Sc. in Software engineering</div>
+                    <div>Phone: +88013 456 78910</div>
+                    <div> Email: zihad0500@gmail.com</div>
+                    <div>Address: Dhaka,Bangladesh </div>
+            </section>
+
+            <section id="skills" class="mb-12">
+                <h2 class="section-title">Skills</h2>
+                <div class="mb-4">
+                    <div class="flex justify-between mb-1 text-gray-300"><span>HTML</span><span>90%</span></div>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 95%;"></div></div>
+                </div>
+                <div class="mb-4">
+                    <div class="flex justify-between mb-1 text-gray-300"><span>CSS</span><span>85%</span></div>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 80%;"></div></div>
+                </div>
+                <div class="mb-4">
+                    <div class="flex justify-between mb-1 text-gray-300"><span>JavaScript</span><span>75%</span></div>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 78%;"></div></div>
+                </div>
+                <div class="mb-4">
+                    <div class="flex justify-between mb-1 text-gray-300"><span>SQL</span><span>70%</span></div>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                </div>
+            </section>
+
+            <section id="education" class="mb-12">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item">
+                    <h3 class="text-xl font-semibold text-white">B.Sc. in Swe</h3>
+                    <p class="text-teal-400 text-sm mb-1">Daffodil International University | 2023 - Present</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="text-xl font-semibold text-white"> HSC </h3>
+                    <p class="text-teal-400 text-sm mb-1"> Sonar Bangla College| 2019 - 2021</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="text-xl font-semibold text-white">SSC</h3>
+                    <p class="text-teal-400 text-sm mb-1">Ibn Taimiya School and College | 2014 - 2019</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
