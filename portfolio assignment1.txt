@@ -66,13 +66,7 @@
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
-        .education-item {
-            border-left: 2px solid #1abc9c;
-            padding-left: 1.5rem;
-            margin-bottom: 2rem;
-            position: relative;
-        }
-        .education-item::before {
+        .education-item{
             content: '';
             position: absolute;
             left: -8px;
