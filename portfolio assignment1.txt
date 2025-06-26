@@ -93,68 +93,67 @@
     </style>
 </head>
 <body>
-    <div class="container mx-auto p-4 md:flex-row flex-col">
-        <div class="sidebar rounded-lg p-8 shadow-lg flex flex-col items-center mb-4 md:mb-0">
-          
-            <h1 class="text-4xl font-bold text-white mb-2" style="color: #1abc9c;">Rakibul Hasan Zihad</h1>
-            <div class="social-icons flex mb-8">
-                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="text-white hover:text-teal-500 mx-3"><i class="fab fa-instagram"></i></a>
+    <div>
+        <div>
+            <h1>Rakibul Hasan Zihad</h1>
+            <div>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
-
-            <div class="flex flex-col space-y-4 w-full">
-                <a href="#" class="btn-primary text-center">Contact Me</a>
+            <div>
+                <a href="#">Contact Me</a>
             </div>
         </div>
 
-        <div class="main-content rounded-lg p-8 shadow-lg">
-            <section id="about" class="mb-12">
-                <h2 class="section-title">About Me</h2>
-                <p class="text-gray-300 leading-relaxed mb-4">
+        <div>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
                     I am Rakibul Hasan Zihad, a web designer with 2 years of experience in creating user-friendly and visually appealing websites. My expertise lies in front-end development, design, and collaborating with clients to bring their digital visions to life. I am passionate about crafting engaging online experiences that leave a lasting impression.
                 </p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
+                <div>
                     <div>Age: 23</div>
                     <div>Degree: B.Sc. in Software engineering</div>
                     <div>Phone: +88013 456 78910</div>
-                    <div> Email: zihad0500@gmail.com</div>
-                    <div>Address: Dhaka,Bangladesh </div>
-            </section>
-
-            <section id="skills" class="mb-12">
-                <h2 class="section-title">Skills</h2>
-                <div class="mb-4">
-                    <div class="flex justify-between mb-1 text-gray-300"><span>HTML</span><span>90%</span></div>
-                    <div class="progress-bar-container"><div class="progress-bar" style="width: 95%;"></div></div>
-                </div>
-                <div class="mb-4">
-                    <div class="flex justify-between mb-1 text-gray-300"><span>CSS</span><span>85%</span></div>
-                    <div class="progress-bar-container"><div class="progress-bar" style="width: 80%;"></div></div>
-                </div>
-                <div class="mb-4">
-                    <div class="flex justify-between mb-1 text-gray-300"><span>JavaScript</span><span>75%</span></div>
-                    <div class="progress-bar-container"><div class="progress-bar" style="width: 78%;"></div></div>
-                </div>
-                <div class="mb-4">
-                    <div class="flex justify-between mb-1 text-gray-300"><span>SQL</span><span>70%</span></div>
-                    <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                    <div>Email: zihad0500@gmail.com</div>
+                    <div>Address: Dhaka, Bangladesh</div>
                 </div>
             </section>
 
-            <section id="education" class="mb-12">
-                <h2 class="section-title">Education</h2>
-                <div class="education-item">
-                    <h3 class="text-xl font-semibold text-white">B.Sc. in Swe</h3>
-                    <p class="text-teal-400 text-sm mb-1">Daffodil International University | 2023 - Present</p>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div>
+                    <div><span>HTML</span><span>95%</span></div>
+                    <div><div></div></div>
                 </div>
-                <div class="education-item">
-                    <h3 class="text-xl font-semibold text-white"> HSC </h3>
-                    <p class="text-teal-400 text-sm mb-1"> Sonar Bangla College| 2019 - 2021</p>
+                <div>
+                    <div><span>CSS</span><span>80%</span></div>
+                    <div><div></div></div>
                 </div>
-                <div class="education-item">
-                    <h3 class="text-xl font-semibold text-white">SSC</h3>
-                    <p class="text-teal-400 text-sm mb-1">Ibn Taimiya School and College | 2014 - 2019</p>
+                <div>
+                    <div><span>JavaScript</span><span>78%</span></div>
+                    <div><div></div></div>
+                </div>
+                <div>
+                    <div><span>SQL</span><span>90%</span></div>
+                    <div><div></div></div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div>
+                    <h3>B.Sc. in SWE</h3>
+                    <p>Daffodil International University | 2023 - Present</p>
+                </div>
+                <div>
+                    <h3>HSC</h3>
+                    <p>Sonar Bangla College | 2019 - 2021</p>
+                </div>
+                <div>
+                    <h3>SSC</h3>
+                    <p>Ibn Taimiya School and College | 2014 - 2019</p>
                 </div>
             </section>
         </div>
